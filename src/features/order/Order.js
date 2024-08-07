@@ -3,11 +3,11 @@ import { useSelector, useDispatch } from 'react-redux';
 import {
   increment,
   incrementAsync,
-  selectCount
+  // selectCount
 } from './counterSlice';
 
 export default function Counter() {
-  const count = useSelector(selectCount);
+  // const count = useSelector(selectCount);
   const dispatch = useDispatch();
 
   // const incrementValue = Number(incrementAmount) || 0;
